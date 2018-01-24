@@ -1,3 +1,4 @@
 FROM jenkins/jenkins:lts
 
-RUN sudo apt-get update && apt-get install python3
+
+RUN su && apt-get update && apt-get install python3
